@@ -1,0 +1,22 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon-off.png",
+      "default_title": "Umbraco Trace: OFF"
+   },
+   "description": "Modifies the URL request to append the Umbraco Debug Trace query parameter. This program is not affliated with the Umbraco project.",
+   "icons": {
+      "200": "icon-200.png"
+   },
+	"permissions": [
+		"tabs",
+		"webRequest",
+		"webRequestBlocking",
+		"<all_urls>"
+	],
+   "manifest_version": 2,
+   "name": "Umbraco Debug Trace",
+   "version": "0.5"
+}
