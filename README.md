@@ -1,7 +1,7 @@
 Chrome Umbraco Debug
 ==================
 
-A chrome extension which enables umbraco debug trace on all page requests (i.e ?umbDebugShowTrace=true).
+A chrome extension which appends umbraco debug trace on all page requests within a tab (i.e ?umbDebugShowTrace=true).
 
 Installing this
 ===============
