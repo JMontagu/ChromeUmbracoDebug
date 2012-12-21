@@ -15,3 +15,5 @@ To install this extension:
 6. Information about this extension will appear in the installed extensions list, and a new grey Umbraco icon will be added to the browser tab.
 7. Browse to your umbraco site and click the greyed out Umbraco icon to enable. The page will reload with 'umbDebugShowTrace' appended to the URL.
 8. To disable, click the Umbraco icon and the page URL will revert back to the non-trace version. 
+
+Browsing history won't be affected by this plugin as it changes the URL after the history is saved.
